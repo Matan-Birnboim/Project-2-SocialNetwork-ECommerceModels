@@ -231,7 +231,7 @@ def main():
   
   output = find_my_influencers(artists, G_0, G_minus_1, nodes_with_new_neighbors_init)
 
-  with open('313358343_212724462.csv', 'w') as f:
+  with open('ID1_ID2.csv', 'w') as f:
       f.write("artist Id,influencer 1,influencer 2,influencer 3,influencer 4,influencer 5\n")
       for key in output.keys():
           print(key, output[key])
